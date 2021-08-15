@@ -1,0 +1,320 @@
+body p {
+    font-size: 28px;
+    font-weight: 800;
+  }
+  .container {
+    width: 1200px;
+    height: 350px;
+    max-width: 100%;
+    margin: 0 auto;
+    position: relative;
+    border-bottom: 1px solid black;
+  }
+  .square {
+    display: inline-block;
+    font-size: inherit;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 20%;
+  }
+  .first {
+    border: 1px solid red;
+  }
+  .second {
+    border: 1px solid blue;
+    left: 20%;
+  }
+  .third {
+    border: 1px solid green;
+    left: 40%;
+  }
+  .container_2 {
+    width: 1200px;
+    height: 750px;
+    max-width: 100%;
+    margin: 0 auto;
+    position: relative;
+    border-bottom: 1px solid black;
+  }
+  .squares {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+  }
+  .red {
+    border: 1px solid red;
+    top: 1%;
+  }
+  .blue {
+    border: 1px solid blue;
+    top: 35%;
+    left: 20%;
+  }
+  .green {
+    border: 1px solid green;
+    top: 70%;
+    left: 40%;
+  }
+  /*1*/
+  .container_3 {
+    position: relative;
+    width: 800px;
+    height: 200px;
+    max-width: 100%;
+    margin: 30px;
+    border: 1px solid black;
+  }
+  .mini_square {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 20%;
+  }
+  .number_1 {
+    border: 1px solid red;
+    top: calc(50% - 35px);
+    left: 10%;
+  }
+  .number_2 {
+    border: 1px solid blue;
+    top: calc(50% - 35px);
+    left: 25%;
+  }
+  
+  .number_3 {
+    border: 1px solid green;
+    top: calc(50% - 35px);
+    left: 40%;
+  }
+  /*2*/
+  .container_4 {
+    position: relative;
+    width: 850px;
+    height: 300px;
+    max-width: 100%;
+    margin: 30px;
+    border: 1px solid black;
+  }
+  .mini_squares {
+    display: block;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+  }
+  .number_first {
+    border: 1px solid red;
+    top: 3%;
+    left: 10%;
+  }
+  .number_second {
+    border: 1px solid blue;
+    top: 37%;
+    left: 20%;
+  }
+  .number_third {
+    border: 1px solid green;
+    top: 72%;
+    left: 30%;
+  }
+  /*3*/
+  .container_5 {
+    position: relative;
+    width: 950px;
+    height: 180px;
+    max-width: 100%;
+    margin: 30px;
+    border: 1px solid black;
+  }
+  .mini_squaries {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+  }
+  .number_first1 {
+    border: 1px solid red;
+    top: 5%;
+    left: 10%;
+  }
+  .number_second2 {
+    border: 1px solid blue;
+    top: 20%;
+    left: 15%;
+  }
+  .number_third3 {
+    border: 1px solid green;
+    top: 35%;
+    left: 20%;
+  }
+  /*4*/
+  .number1 {
+    background-color: red;
+    top: 5%;
+    left: 10%;
+  }
+  .number2 {
+    background-color: blue;
+    top: 20%;
+    left: 15%;
+  }
+  .number3 {
+    background-color: green;
+    top: 35%;
+    left: 20%;
+  }
+  /*z-index*/
+  /*1*/
+  .num1 {
+    background-color: red;
+    top: 5%;
+    left: 10%;
+  }
+  .num2 {
+    background-color: blue;
+    top: 20%;
+    left: 15%;
+    z-index: 2;
+  }
+  .num3 {
+    background-color: green;
+    top: 35%;
+    left: 20%;
+  }
+  /*2*/
+  .numb1 {
+    background-color: red;
+    top: 5%;
+    left: 10%;
+  }
+  .numb2 {
+    background-color: blue;
+    top: 20%;
+    left: 15%;
+    z-index: -2;
+  }
+  .numb3 {
+    background-color: green;
+    top: 35%;
+    left: 20%;
+  }
+  /*3.*/
+  .numb_1 {
+    background-color: red;
+    top: 5%;
+    left: 10%;
+    z-index: 3;
+  }
+  .numb_2 {
+    background-color: blue;
+    top: 20%;
+    left: 15%;
+    z-index: 2;
+  }
+  .numb_3 {
+    background-color: green;
+    top: 35%;
+    left: 20%;
+  }
+  /*relative*/
+  /*1*/
+  .container_6 {
+    position: relative;
+    width: 950px;
+    height: 500px;
+    max-width: 100%;
+    margin: 30px;
+    border: 1px solid black;
+  }
+  .rectangle {
+    width: 670px;
+    height: 400px;
+    border: 1px solid green;
+    margin: 50px auto;
+    position: relative;
+  }
+  .small_square {
+    width: 80px;
+    height: 80px;
+    border: 1px solid red;
+    position: absolute;
+    left: 15%;
+    top: 20%;
+  }
+  /*2*/
+  .rectangle_2 {
+    width: 670px;
+    height: 400px;
+    background-color: green;
+    margin: 50px auto;
+    position: relative;
+  }
+  .small_square_1 {
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    position: absolute;
+    left: 15%;
+    top: 20%;
+  }
+  .small_square_2 {
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    position: absolute;
+    right: 15%;
+    bottom: 20%;
+  }
+  /*3*/
+  .container_61 {
+    position: relative;
+    width: 850px;
+    height: 550px;
+    max-width: 100%;
+  
+    margin: 30px 0 0 30px;
+    border: 1px solid black;
+  }
+  
+  .rectangle_3 {
+    width: 400px;
+    height: 400px;
+    background-color: green;
+    margin: 80px auto;
+    position: relative;
+    border-radius: 50%;
+  }
+  .small_square_3 {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    position: absolute;
+    left: calc(50% - 20px);
+    top: calc(50% - 20px);
+  }
+  .small_circle {
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    position: absolute;
+    border-radius: 50%;
+    left: calc(30% - 30px);
+    top: calc(20% - 30px);
+  }
+  .small_circle_2 {
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    position: absolute;
+    border-radius: 50%;
+    right: calc(30% - 30px);
+    top: calc(20% - 30px);
+  }
+  .small_rectangle {
+    width: 170px;
+    height: 20px;
+    background-color: white;
+    position: absolute;
+    left: calc(50% - 85px);
+    bottom: calc(20% - 10px);
+  }
