@@ -1,0 +1,15 @@
+it config --global user.name "name1" - Для всех репозиториев по умолчанию имя name1
+git config --global user.email "email1" - Для всех репозиториев по умолчанию емэйл email1
+
+git init - Инициализация
+git add *file* / git add . - Добавить файл с именем *file* / Добавить все файлы
+git status - текущий статус файла
+git commit -m "msg" - Создать коммит с комментарием msg
+git push - отправить 
+git fetch - проверить изменения на сервере
+git pull - взять изменения ветки
+git checkout *file* - Вернуть файл *file* до прошлого коммита
+git checkout *branch_name* - перейти на СУЩЕСТВУЮЩУЮ ветку *branch_name*
+git branch - показывает все ветки и на какой мы сейчас
+git branch *name* - создаёт ветку
+git checkout -b *branch_name* - создаёт ветку *branch_name* и сразу на неё переходит
